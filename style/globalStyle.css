@@ -1,0 +1,52 @@
+@import url('https://fonts.googleapis.com/css2?family=Kanit&display=swap');
+
+* {
+    text-decoration: none;
+}
+body {
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    background-image: url(/images/background-solid.png)
+}
+
+
+#logo {
+    height: 55px;
+}
+
+header {
+    position: absolute;
+    display:flex;
+    width: 100%;
+    height: 60px;
+    top: 0px;
+    left: 0px;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
+
+
+
+nav {
+    display: flex;
+}
+
+.navitem {
+    font-family: 'Kanit',sans-serif;
+    color: #FFF;
+    text-align: center;
+    margin: 0px 15px;
+    padding: 0px 15px;
+}
+
+.navitem:hover {
+    color: #888;
+}
+
+.navitem:active {
+    color: #FFF
+}
+
+a:active {
+    color:#F2FF74
+}
