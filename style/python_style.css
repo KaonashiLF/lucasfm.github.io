@@ -1,0 +1,19 @@
+p {
+    font-size: 14px;
+    color: white
+}
+
+#bg-img-python{
+    display:flex;
+    position: relative;
+    width: 100%;
+    left: 0;
+}
+
+#main-content{
+    margin: auto;
+    position:absolute;
+    width: 60%;
+    height:100%;
+    background-color:RGBA(255,255,255,0.2)
+}
