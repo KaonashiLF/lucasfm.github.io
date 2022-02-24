@@ -3,17 +3,33 @@ p {
     color: white
 }
 
-#bg-img-python{
-    display:flex;
-    position: relative;
+#python-section {
+    top:0px;
+    left: 0px;
+    display:block;
     width: 100%;
-    left: 0;
+    height: 600px;
+}
+
+#bg-img-python{
+    position:absolute;
+    width: 100%;
+    top:63px;
+    left: 0px;
 }
 
 #main-content{
-    margin: auto;
-    position:absolute;
+    position: absolute;
+    top: 83px;
+    left:0;
+    right:0;
     width: 60%;
-    height:100%;
-    background-color:RGBA(255,255,255,0.2)
+    margin: auto;
+}
+
+.text-py-content {
+    text-align:justify;
+    padding: 20px;
+    border-radius: 10px 10px;
+    background-color:#222;
 }
