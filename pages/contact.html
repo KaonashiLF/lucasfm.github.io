@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>LWM | Contact</title>
+        <script src="../js/main-functions.js"></script>
+        <link rel="stylesheet" type="text/css" href="../style/globalStyle.css">
+        <link rel="stylesheet" type="text/css" href="../style/contact.css">
+        <!---->
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+
+    <body>
+        <img src="../images/background-solid.png" id="backgroundimg"></img>
+
+        <!-- Header de navegacao-->
+        <header>
+            <a href="../index.html"><img src="../images/lwm_logo.png" id="logo"></img></a>
+            <nav>
+                <a class="navitem" href="python.html">Python Learning</a>
+                <a class="navitem" href="html.html">HTML Learning</a>
+                <a class="navitem" href="css.html">CSS Learning</a>
+                <a class="navitem" href="js.html">Javascript Learning</a>
+                <a class="navitem" href="why.html">Why LWM</a>
+                <a class="navitem" href="about.html">About me</a>
+                <a class="navitem" href="" onclick="alertAlreadyHere()">Contact</a>
+            </nav>
+        </header>
+        <section>
+            <div class="form-contact">
+                <h1>Contact us</h1>
+                <div class="form">
+                    <form>
+                        <div class="input-fields">
+                            <a class="title-form">Nome</a>
+                            <input type="text" name="Nome" placeholder="Ex.: João Silva">
+                            
+                            <a class="title-form">Email</a>
+                            <input type="text" name="Email" placeholder="Ex.: joao.silva@gmail.com">
+                            
+                            <a class="title-form">Número</a>
+                            <input type="number" name="" placeholder="Ex.: (11) 95050-0505" id="contact-number">
+
+                            <a class="title-form">Mensagem</a>
+                            <textarea name="textarea"></textarea>
+                            
+
+                            <button class="form-buttons" onclick="sendEmail()">Send</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </section>
+        
+        
+        <footer>
+            
+        </footer>
+    </body>
+</html>

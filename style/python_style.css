@@ -1,6 +1,6 @@
 p {
-    font-size: 14px;
-    color: white
+    font-size: 18px;
+    color: black
 }
 
 #python-section {
@@ -12,24 +12,38 @@ p {
 }
 
 #bg-img-python{
-    position:absolute;
+    position:relative;
     width: 100%;
-    top:63px;
+    top:0px;
     left: 0px;
 }
 
 #main-content{
+    display: block;
     position: absolute;
-    top: 83px;
+    top: 63px;
     left:0;
     right:0;
-    width: 60%;
+    width: 100%;
     margin: auto;
 }
 
 .text-py-content {
+    position:relative;
     text-align:justify;
     padding: 20px;
+    top: 5px;
     border-radius: 10px 10px;
-    background-color:#222;
+    background-color:#fff;
+    width: 60%;
+    margin: auto;
+    box-shadow: 5px 4px 8px 2px #888;
+}
+ul li {
+    font-size: 18px;
+    color: black;
+    text-decoration: none;
+    text-transform: none;
+    list-style-type: none;
+    
 }

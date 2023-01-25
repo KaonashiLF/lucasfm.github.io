@@ -1,6 +1,8 @@
 p {
-    font-size: 14px;
-    color: white
+    font-size: 16px;
+    font-weight: normal;
+    color: black;
+    margin: 5px;
 }
 
 #aboutme-div{
@@ -23,33 +25,55 @@ p {
 
 #myphoto{
     height:250px;
-    box-shadow: 2px 3px 10px 0px #000000;
     border-radius: 10px;
+    position: relative;
+    align-content: center;
+    top: 4px;
+    left: 6px
 }
 
-
+.left-container{
+    height: 401px;
+    padding: 5px;
+    border-radius: 10px;
+    box-shadow: 5px 5px 10px 2px #999;
+    background-color: #FFFFFF
+}
 
 #social-medias{
     top: 250px;
     width:200px;
-    position: absolute;
+    position: relaive;
     display: inline-block;
     align-items: center;
-
 }
 #socialmedia-logo {
     margin: 0px 5px;
     margin-top:5px;
 }
 
-.text-about-me {
+.center-container {
     display: block;
     position: relative;
     left: 20px;
     text-align: justify;
+    border-radius: 10px;
+    box-shadow: 5px 5px 10px 2px #999;
+    background-color: #FFFFFF;
+    padding: 10px;
 }
 
 .linkedin {
     background-color: #ffffff;
     border-radius: 5px;
+}
+
+.bottom-container{
+    background-color: #3C3C3C;
+    position:absolute;
+    bottom: 0;
+    left:0;
+    height:40px;
+    width: 100%;
+    text-align: center;
 }
